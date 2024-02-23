@@ -26,7 +26,9 @@ from time import sleep
 import os
 import pyglet
 
-tts = gTTS(text='Maaf siapa nama kamu?', lang='id')
+sentence = ["Krisna", "Erlangga"]
+
+tts = gTTS(text=' '.join(sentence), lang='id')
 filename = '/tmp/temp.mp3'
 tts.save(filename)
 
