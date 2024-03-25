@@ -8,6 +8,7 @@ from mediapipe.python.solutions.pose import PoseLandmark
 from mediapipe.python.solutions.drawing_utils import DrawingSpec
 import math
 from mediapipe.framework.formats import landmark_pb2
+import streamlit as st
 
 mp_holistic = mp.solutions.holistic
 mp_drawing = mp.solutions.drawing_utils
